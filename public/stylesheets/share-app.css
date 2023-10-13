@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+#content {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF, 0 0 150px #00FFFF;
+}
+
+#userdata {
+  width: 350px;
+  height: auto;
+  background: red;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
+    no-repeat center/ cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+#user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#user button {
+  background-color: #573b8a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in;
+  cursor: pointer;
+}
+
+#user button:hover {
+  background-color: #6d44b8;
+}
+
+/* Style pour la zone de création d'objet */
+#createItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#createItem input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#createItem button {
+  background-color: #573b8a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in;
+  cursor: pointer;
+}
+
+#createItem button:hover {
+  background-color: #6d44b8;
+}
+
+
+#list {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#borrowed-item {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#borrowed-item p {
+  margin-top: 10px;
+  color: #fff;
+}
+
+#borrowed-item span {
+  font-weight: bold;
+  color: #fff;
+}

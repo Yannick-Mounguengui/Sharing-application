@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>login/register</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/styleregister.css"/>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script src="../javascripts/register.client.js" defer="true"/></script>
+</head>
+
+<body>
+  <h1>Creation de compte</h1>
+
+  <div id="userdata">
+    <div>
+      <label for="username">Nom
+        <input type="text" placeholder="nom" value="" id="username"/>
+      </label>
+    </div>
+    <div>
+      <label for="userlogin">Login
+        <input type="text" placeholder="login" value="" id="userlogin"/>
+      </label>
+    </div>
+    <div>
+      <label>Mot de passe
+        <input type="password" placeholder="mot de passe" value="" id="userpassword"/>
+      </label>
+    </div>
+  </div>
+  <div id="controls">
+    <button id="register">Register</button>
+  </div>
+  <div>
+    <a href="/access/login">vous avez déjà un compte ?</a>
+  </div>
+
+  <div id="problem"></div>
+
+</body>
+
+</html>
