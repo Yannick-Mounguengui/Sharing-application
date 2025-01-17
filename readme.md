@@ -11,13 +11,13 @@
 *Dans un terminal faire les commandes suivantes:*
 
 ```bash
-git clone git@gitlab-etu.fil.univ-lille.fr:angeyannick.mounguenguiitoua.etu/mounguengui_yannick_jsfs.git
+git clone https://github.com/yannick-itoua/Sharing-application.git.git
 
 ```
 *se placer dans le répertoire*
 
 ```bash
-cd mounguengui_yannick_jsfs/Application de partage
+cd Sharing-application
 ```
 *creer le dossier dbData*
 
